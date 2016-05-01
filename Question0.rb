@@ -18,12 +18,15 @@ def combine_name(first_name, last_name)
 	return (full_name)
 end
 
-answer_1 = squared_sum(5, 7)
-puts "Squared sum of 5 and 7 is #{answer_1}"
+answer_1 = squared_sum(3, 5)
+puts "Squared sum of 3 and 5 is #{answer_1}"
+#Output: Squared sum of 3 and 5 is 64
 
 a = [5,7,1,3,2]
 answer_2 = sort_array_plus_one(a)
 puts "Original Array = #{a}, array after sorting and increment by 1 is #{answer_2}"
+#Output: Original Array = [5,7,1,3,2], array after sorting and increment by 1 is [2,3,4,6,8]
 
 answer_3 = combine_name('Howard', 'Chen')
 puts answer_3
+#Output: Howard Chen

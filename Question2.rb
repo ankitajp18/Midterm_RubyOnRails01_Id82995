@@ -16,5 +16,7 @@ def method3
 	end
 end 
 
-puts method1
+puts method1 
+#Output : 33
 puts method3
+#Output : 11

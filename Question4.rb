@@ -29,6 +29,7 @@ class Troll
 		end
 	end
 	
+	#g
 	def respond_to?(str)
 		return (str == "fight")
 	end
